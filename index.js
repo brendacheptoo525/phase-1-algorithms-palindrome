@@ -1,9 +1,9 @@
 function isPalindrome(word) {
   // Write your algorithm here
-  // Convert the word to lowercase to handle case-insensitive comparisons
+  // Word converted to lowercase to handle case-insensitive comparisons
   word = word.toLowerCase();
 
-  // Iterate from the beginning to the middle of the word
+  // Iteration from beginning to the middle of the word
   for (let i = 0; i < Math.floor(word.length / 2); i++) {
       // Check each letter to the corresponding letter from the end
       const j = word.length - 1 - i;
@@ -34,7 +34,6 @@ Function isPalindrome(word):
   Return true
 */
 
-// You can run `node index.js` to view these console logs
 // Custom tests
 if (require.main === module) {
   // add your own custom tests in here
